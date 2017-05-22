@@ -1,0 +1,6 @@
+framework module Pods_HuanXinDemo {
+  umbrella header "Pods-HuanXinDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -15,6 +15,12 @@
 		9E167D471D3B6E2B004164A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E167D451D3B6E2B004164A0 /* LaunchScreen.storyboard */; };
 		9E167D521D3B6E2B004164A0 /* HuanXinDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D511D3B6E2B004164A0 /* HuanXinDemoTests.m */; };
 		9E167D5D1D3B6E2B004164A0 /* HuanXinDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D5C1D3B6E2B004164A0 /* HuanXinDemoUITests.m */; };
+		9E167D6C1D3B7884004164A0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D6B1D3B7884004164A0 /* RegisterViewController.m */; };
+		9E167D6F1D3B7892004164A0 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D6E1D3B7892004164A0 /* FriendViewController.m */; };
+		9E167D721D3B814C004164A0 /* AddFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D711D3B814C004164A0 /* AddFriendViewController.m */; };
+		9E167D751D3B815C004164A0 /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D741D3B815C004164A0 /* ChatViewController.m */; };
+		9E167D781D3B8B5A004164A0 /* DialogBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E167D771D3B8B5A004164A0 /* DialogBoxView.m */; };
+		AA81294FE5F5999418D8E301 /* Pods_HuanXinDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B37919350EAF6D8C46D244A1 /* Pods_HuanXinDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		20F03B39297947BAE69580B2 /* Pods-HuanXinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuanXinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-HuanXinDemo/Pods-HuanXinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		261570A171C219BD4DCBEE7D /* libPods-HuanXinDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuanXinDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C9784D3E068B988CB2480A9 /* Pods-HuanXinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HuanXinDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HuanXinDemo/Pods-HuanXinDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9E167D341D3B6E2B004164A0 /* HuanXinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuanXinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E167D381D3B6E2B004164A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E167D3A1D3B6E2B004164A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,18 @@
 		9E167D581D3B6E2B004164A0 /* HuanXinDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuanXinDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E167D5C1D3B6E2B004164A0 /* HuanXinDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HuanXinDemoUITests.m; sourceTree = "<group>"; };
 		9E167D5E1D3B6E2B004164A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E167D6A1D3B7884004164A0 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		9E167D6B1D3B7884004164A0 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		9E167D6D1D3B7892004164A0 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		9E167D6E1D3B7892004164A0 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		9E167D701D3B814C004164A0 /* AddFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriendViewController.h; sourceTree = "<group>"; };
+		9E167D711D3B814C004164A0 /* AddFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriendViewController.m; sourceTree = "<group>"; };
+		9E167D731D3B815C004164A0 /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
+		9E167D741D3B815C004164A0 /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		9E167D761D3B8B5A004164A0 /* DialogBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialogBoxView.h; sourceTree = "<group>"; };
+		9E167D771D3B8B5A004164A0 /* DialogBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialogBoxView.m; sourceTree = "<group>"; };
+		B37919350EAF6D8C46D244A1 /* Pods_HuanXinDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HuanXinDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3F95921D1A686972D482A4B /* libPods-HuanXinDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HuanXinDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA81294FE5F5999418D8E301 /* Pods_HuanXinDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BE516CE0122537E80979272 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9C9784D3E068B988CB2480A9 /* Pods-HuanXinDemo.debug.xcconfig */,
+				20F03B39297947BAE69580B2 /* Pods-HuanXinDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DDDBDFCB304F33CDDCDF852 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3F95921D1A686972D482A4B /* libPods-HuanXinDemoTests.a */,
+				261570A171C219BD4DCBEE7D /* libPods-HuanXinDemoUITests.a */,
+				B37919350EAF6D8C46D244A1 /* Pods_HuanXinDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E167D2B1D3B6E2B004164A0 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				9E167D501D3B6E2B004164A0 /* HuanXinDemoTests */,
 				9E167D5B1D3B6E2B004164A0 /* HuanXinDemoUITests */,
 				9E167D351D3B6E2B004164A0 /* Products */,
+				0BE516CE0122537E80979272 /* Pods */,
+				7DDDBDFCB304F33CDDCDF852 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +148,16 @@
 				9E167D3B1D3B6E2B004164A0 /* AppDelegate.m */,
 				9E167D3D1D3B6E2B004164A0 /* ViewController.h */,
 				9E167D3E1D3B6E2B004164A0 /* ViewController.m */,
+				9E167D6A1D3B7884004164A0 /* RegisterViewController.h */,
+				9E167D6B1D3B7884004164A0 /* RegisterViewController.m */,
+				9E167D6D1D3B7892004164A0 /* FriendViewController.h */,
+				9E167D6E1D3B7892004164A0 /* FriendViewController.m */,
+				9E167D701D3B814C004164A0 /* AddFriendViewController.h */,
+				9E167D711D3B814C004164A0 /* AddFriendViewController.m */,
+				9E167D731D3B815C004164A0 /* ChatViewController.h */,
+				9E167D741D3B815C004164A0 /* ChatViewController.m */,
+				9E167D761D3B8B5A004164A0 /* DialogBoxView.h */,
+				9E167D771D3B8B5A004164A0 /* DialogBoxView.m */,
 				9E167D401D3B6E2B004164A0 /* Main.storyboard */,
 				9E167D431D3B6E2B004164A0 /* Assets.xcassets */,
 				9E167D451D3B6E2B004164A0 /* LaunchScreen.storyboard */,
@@ -147,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E167D611D3B6E2B004164A0 /* Build configuration list for PBXNativeTarget "HuanXinDemo" */;
 			buildPhases = (
+				2DF0188192D9EED340265D74 /* [CP] Check Pods Manifest.lock */,
 				9E167D301D3B6E2B004164A0 /* Sources */,
 				9E167D311D3B6E2B004164A0 /* Frameworks */,
 				9E167D321D3B6E2B004164A0 /* Resources */,
+				187C44D8952334ED80F94028 /* [CP] Embed Pods Frameworks */,
+				968F2D36AAD94F76CB50B762 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E167D641D3B6E2B004164A0 /* Build configuration list for PBXNativeTarget "HuanXinDemoTests" */;
 			buildPhases = (
+				684B429DB98B4182D63F288B /* [CP] Check Pods Manifest.lock */,
 				9E167D491D3B6E2B004164A0 /* Sources */,
 				9E167D4A1D3B6E2B004164A0 /* Frameworks */,
 				9E167D4B1D3B6E2B004164A0 /* Resources */,
+				4281699D5B530BCAA7751BB8 /* [CP] Embed Pods Frameworks */,
+				33E20F109C923FC315041FA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E167D671D3B6E2B004164A0 /* Build configuration list for PBXNativeTarget "HuanXinDemoUITests" */;
 			buildPhases = (
+				993F06B483D473F885DDCFBA /* [CP] Check Pods Manifest.lock */,
 				9E167D541D3B6E2B004164A0 /* Sources */,
 				9E167D551D3B6E2B004164A0 /* Frameworks */,
 				9E167D561D3B6E2B004164A0 /* Resources */,
+				E97C08870B9410966AEEEA4B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +326,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		187C44D8952334ED80F94028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuanXinDemo/Pods-HuanXinDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2DF0188192D9EED340265D74 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		33E20F109C923FC315041FA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuanXinDemoTests/Pods-HuanXinDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4281699D5B530BCAA7751BB8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuanXinDemoTests/Pods-HuanXinDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684B429DB98B4182D63F288B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		968F2D36AAD94F76CB50B762 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuanXinDemo/Pods-HuanXinDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		993F06B483D473F885DDCFBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E97C08870B9410966AEEEA4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HuanXinDemoUITests/Pods-HuanXinDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9E167D301D3B6E2B004164A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -273,6 +457,11 @@
 				9E167D3F1D3B6E2B004164A0 /* ViewController.m in Sources */,
 				9E167D3C1D3B6E2B004164A0 /* AppDelegate.m in Sources */,
 				9E167D391D3B6E2B004164A0 /* main.m in Sources */,
+				9E167D6F1D3B7892004164A0 /* FriendViewController.m in Sources */,
+				9E167D721D3B814C004164A0 /* AddFriendViewController.m in Sources */,
+				9E167D751D3B815C004164A0 /* ChatViewController.m in Sources */,
+				9E167D781D3B8B5A004164A0 /* DialogBoxView.m in Sources */,
+				9E167D6C1D3B7884004164A0 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +602,7 @@
 		};
 		9E167D621D3B6E2B004164A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C9784D3E068B988CB2480A9 /* Pods-HuanXinDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HuanXinDemo/Info.plist;
@@ -424,6 +614,7 @@
 		};
 		9E167D631D3B6E2B004164A0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20F03B39297947BAE69580B2 /* Pods-HuanXinDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HuanXinDemo/Info.plist;
@@ -498,6 +689,7 @@
 				9E167D631D3B6E2B004164A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E167D641D3B6E2B004164A0 /* Build configuration list for PBXNativeTarget "HuanXinDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +698,7 @@
 				9E167D661D3B6E2B004164A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E167D671D3B6E2B004164A0 /* Build configuration list for PBXNativeTarget "HuanXinDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +707,7 @@
 				9E167D691D3B6E2B004164A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
